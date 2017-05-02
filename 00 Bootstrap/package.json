@@ -11,5 +11,10 @@
     "Grid"
   ],
   "author": "Jaime Salas",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0"
+  }
 }
