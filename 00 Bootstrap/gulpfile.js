@@ -20,6 +20,9 @@ const openOptions = {
     app: systemToBrowser[os.platform()]
 }
 
+gulp.task('copy', () => gulp.src('./node_modules/bootstrap/dist/css/bootstrap.css')
+    .pipe(gulp.dest('./src/content/third_party/')))
+
 gulp.task('reload', () => gulp.src('./src/**/*').pipe(connect.reload()));
 
 gulp.task('watch', () => gulp.watch(['./src/**/*'], ['reload']));
@@ -28,4 +31,4 @@ gulp.task('open', () => gulp.src(__filename).pipe(open(openOptions)));
 
 gulp.task('connect', () => connect.server(serverOptions));
 
-gulp.task('default', ['connect', 'open', 'watch']);
+gulp.task('default', ['copy','connect', 'open', 'watch']);
