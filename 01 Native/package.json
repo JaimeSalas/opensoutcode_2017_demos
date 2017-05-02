@@ -1,0 +1,21 @@
+{
+  "name": "bootstrap_example",
+  "version": "1.0.0",
+  "description": "Bootstrap example to be  migrated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootrap",
+    "Grid"
+  ],
+  "author": "Jaime Salas",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0"
+  }
+}
