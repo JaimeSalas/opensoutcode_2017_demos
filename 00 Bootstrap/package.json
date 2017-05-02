@@ -1,0 +1,15 @@
+{
+  "name": "bootstrap_example",
+  "version": "1.0.0",
+  "description": "Bootstrap example to be  migrated",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Bootrap",
+    "Grid"
+  ],
+  "author": "Jaime Salas",
+  "license": "MIT"
+}
