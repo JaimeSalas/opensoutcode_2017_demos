@@ -10,10 +10,10 @@
     flex-basis: auto; 
     color: white;
     background-color: black;
-    text-align: center;
 }
 
 .secondary-container {
+    padding-top: 60px;
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: auto;
@@ -89,7 +89,7 @@
 }
 
 .main-footer p {
-    text-align: center;
+    padding-left: 30px;
 }
 
 
