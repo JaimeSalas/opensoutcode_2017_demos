@@ -1,0 +1,126 @@
+.main-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.main-header {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto; 
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+
+.secondary-container {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "header header"
+        "principal aside"
+        "footer-header footer-header"
+        "footer footer"
+}
+
+.secondary-header {
+    grid-area: header;
+    background-color: yellow;
+    height: 200px;
+}
+
+.secondary-principal {
+    grid-area: principal;
+    background-color: green;
+    height: 300px;
+}
+
+.secondary-aside {
+    grid-area: aside;
+    background-color: orange;
+    height: 300px;
+}
+
+.secondary-footer-header {
+    grid-area: footer-header;
+    background-color: cyan;
+    height: 100px;
+}
+
+.secondary-footer {
+    grid-area: footer;
+    background-color: pink;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-footer {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+.main-footer p {
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .secondary-container {
+        flex-grow: 1;
+        flex-shrink: 1;
+        flex-basis: auto;
+        display: flex;
+        flex-direction: column;
+        /*padding-left: 30px;
+        padding-right: 30px;
+        display: grid;
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "header header"
+            "principal aside"
+            "footer-header footer-header"
+            "footer footer"*/
+        
+    }
+
+    .secondary-header {
+        /*grid-area: header;*/
+        background-color: yellow;
+        height: 200px;
+    }
+
+    .secondary-principal {
+        /*grid-area: principal;*/
+        background-color: green;
+        height: 300px;
+    }
+
+    .secondary-aside {
+        /*grid-area: aside;*/
+        background-color: orange;
+        height: 300px;
+    }
+
+    .secondary-footer-header {
+        /*grid-area: footer-header;*/
+        background-color: cyan;
+        height: 100px;
+    }
+
+    .secondary-footer {
+        /*grid-area: footer;*/
+        background-color: pink;
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+    }
+}
