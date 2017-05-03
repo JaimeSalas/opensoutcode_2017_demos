@@ -32,33 +32,24 @@
 
 .secondary-header {
     grid-area: header;
-    /*background-color: yellow;
-    height: 200px;*/
 }
 
 .secondary-principal {
     grid-area: principal;
-    /*background-color: green;
-    height: 300px;*/
 }
 
 .secondary-aside {
     grid-area: aside;
-    /*background-color: orange;
-    height: 300px;*/
 }
 
 .secondary-footer-header {
     grid-area: footer-header;
-    /*background-color: cyan;
-    height: 100px;*/
 }
 
 .secondary-footer {
     grid-area: footer;
     display: flex;
     flex-direction: row;
-    /*justify-content: space-between;*/
 }
 
 .row-a {
