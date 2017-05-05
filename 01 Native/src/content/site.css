@@ -52,8 +52,7 @@
     flex-direction: row;
 }
 
-.row-flex {
-    flex-grow: 1;
+.secondary-footer .row-flex {
     display: flex;
     flex-direction: row; 
 }
@@ -77,32 +76,13 @@
     padding-left: 30px;
 }
 
-
 @media screen and (max-width: 768px) {
     .secondary-container {
-        flex-grow: 1;
         display: flex;
         flex-direction: column;
     }
 
-    .secondary-header {
-        flex-grow: 1;
-    }
-
-    .secondary-principal {
-        flex-grow: 1;
-    }
-
-    .secondary-aside {
-        flex-grow: 1;
-    }
-
-    .secondary-footer-header {
-        flex-grow: 1;
-    }
-
     .secondary-footer {
-        flex-grow: 1;
         flex-wrap: wrap;
     }
 }
